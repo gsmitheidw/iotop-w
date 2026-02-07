@@ -10,6 +10,8 @@ queued waiting access slots to the storage
 - Written in golang. App is self contained with no dependencies.
 - Open Source MIT licence. 
 
+![iotop-w example](iotop-w.jpg)
+
 
 ## Command
 
