@@ -41,8 +41,8 @@ Features that I'd like to include eventually:
 
 ## Security
 
-No network access
-No registry writes
-No file writes
-No elevation required (some processes inaccessible without elevation)
+- No network access
+- No registry writes
+- No file writes
+- No elevation required (some processes inaccessible without elevation)
 
