@@ -38,3 +38,11 @@ Features that I'd like to include eventually:
 - Interface is ok but some box drawing might look nicer. 
 - The terminal process itself can be intrusive, might be nice to have option to exclude it.
 
+
+## Security
+
+No network access
+No registry writes
+No file writes
+No elevation required (some processes inaccessible without elevation)
+
