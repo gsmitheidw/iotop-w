@@ -5,8 +5,8 @@ iotop like command line application for Windows, written in Go.
 
 - Shows top 5 individual processes consuming disk I/O
 - "btop" style appearance using braile characters for graphs
-- Disk I/O wait showing how much pressure is on the system of processes
-queued waiting access slots to the storage
+- Disk Pressure showing how much queue is on the system of processes awaiting
+access slots to the storage
 - Written in golang. App is self contained with no dependencies.
 - Open Source MIT licence. 
 
