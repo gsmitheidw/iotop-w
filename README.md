@@ -27,6 +27,10 @@ Options:
 --info, -i       Show repo info and license
 --top <number>   Show top <number> processes (max 20)
 ```
+## Installation:
+
+Just grab the binary from the releases section. 
+
 
 ## Explaination
 
@@ -45,8 +49,9 @@ I have unashamedly used some ollama LLM to help me. It would have taken me month
 
 Features that I'd like to include eventually:
 
+- Publish in chocolatey community repo and possibly others
 - Theme colours, mono, for light backgrounds, high contrast etc
-- The terminal process itself can be intrusive, might be nice to have option to exclude it.
+- The terminal process itself can be intrusive, might be nice to have option to exclude it
 
 
 ## Security
