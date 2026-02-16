@@ -4,11 +4,11 @@ iotop like command line application for Windows, written in Go.
 ## Features
 
 - Shows top individual processes consuming disk i/o (adjustable)
-- "btop" style appearance using braile characters for graphs
 - Disk Pressure showing how much queue is on the system of processes awaiting
 access slots to the storage
 - Written in golang. App is self contained with no dependencies.
 - Open Source MIT licence. 
+- Two graph visualization modes ("braille" or monochrome sparkline blocks)
 
 ![iotop-w example](iotop-w.jpg)
 
@@ -16,10 +16,16 @@ access slots to the storage
 ## Commands
 
 Use + and - keys to change the rate of display. Minimum is 100ms.  
+Use "s" to toggle graph style.
 There are some command line options:  
 
 ```
-Usage: iotop-w [options]                                                                                                                                                                            Options:                                                                                            --help, -h       Show this help message                                                           --version, -v    Show version                                                                     --info, -i       Show repo info and license                                                       --top <number>   Show top <number> processes (max 20)
+Usage: iotop-w [options]
+Options:
+--help, -h       Show this help message
+--version, -v    Show version
+--info, -i       Show repo info and license
+--top <number>   Show top <number> processes (max 20)
 ```
 
 ## Explaination
@@ -39,6 +45,7 @@ I have unashamedly used some ollama LLM to help me. It would have taken me month
 
 Features that I'd like to include eventually:
 
+- Theme colours, mono, for light backgrounds, high contrast etc
 - The terminal process itself can be intrusive, might be nice to have option to exclude it.
 
 
