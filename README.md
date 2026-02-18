@@ -36,7 +36,7 @@ Just grab the binary from the releases section. Or:
 * chocolatey 
 
 ```posh
-choco install iotop --version='1.0.3' -y
+choco install iotop-w --version='1.0.3' -y
 ```
 
 ## Explaination
