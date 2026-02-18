@@ -29,8 +29,15 @@ Options:
 ```
 ## Installation:
 
-Just grab the binary from the releases section. 
+Just grab the binary from the releases section. Or:
 
+
+* winget (pending)
+* chocolatey 
+
+```posh
+choco install iotop --version='1.0.3' -y
+```
 
 ## Explaination
 
