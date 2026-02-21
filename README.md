@@ -5,7 +5,8 @@ iotop like command line application for Windows, written in Go.
 ![License](https://img.shields.io/github/license/gsmitheidw/iotop-w)
 ![winget](https://img.shields.io/badge/winget-available-blue)
 ![Scoop](https://img.shields.io/badge/scoop-gsmitheidw%20bucket-green)
-
+![TUI](https://img.shields.io/badge/interface-TUI-brightgreen)
+![Windows](https://img.shields.io/badge/platform-Windows-blue)
 
 ## Features
 
