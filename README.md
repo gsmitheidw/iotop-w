@@ -6,7 +6,7 @@ iotop like command line application for Windows, written in Go.
 - Shows top individual processes consuming disk i/o (adjustable)
 - Disk Pressure showing how much queue is on the system of processes awaiting
 access slots to the storage
-- Written in golang. App is self contained with no dependencies.
+- Written in Go. App is self contained with no dependencies.
 - Open Source MIT licence. 
 - Two graph visualization modes ("braille" or monochrome sparkline blocks)a
 
@@ -43,7 +43,7 @@ Just grab the binary from the releases section. Or:
 
 * winget package manager (already built into Windows 11 and later builds of 10)
 
-```post
+```posh
 winget install iotop-w
 ```
 
@@ -62,7 +62,7 @@ scoop install iotop-w
 ```
 
 
-## Explaination
+## Explanation
 
 I made this because there isn't anything else like this for Windows command line.  
 There are plenty of process and memory "top" tools like btm but none of those
