@@ -56,11 +56,12 @@ scoop install iotop-w
 
 ## Explaination
 
-I made this because there isn't anything else like ths for Windows command line.  
+I made this because there isn't anything else like this for Windows command line.  
 There are plenty of process and memory "top" tools like btm but none of those
 look at disk access as a potential bottleneck. On Linux there's iotop and iotop-c etc.
 Because of how Windows provides access to the storage, a straight port of iotop isn't
-at all straightforward.  
+at all straightforward. Sure you can look at task manager, but if you're remoting into
+windows machines over ssh etc rather than RDP, this is a useful way to monitor disk.  
 
 
 Is it "vibe coded"? Yes. Whilst I can code a bit for Sysadmin needs, I'm not a professional programmer. 
