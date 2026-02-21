@@ -1,6 +1,13 @@
 # iotop-w
 iotop like command line application for Windows, written in Go. 
 
+![GitHub release](https://img.shields.io/github/v/release/gsmitheidw/iotop-w)
+![License](https://img.shields.io/github/license/gsmitheidw/iotop-w)
+![winget](https://img.shields.io/badge/winget-available-blue)
+![Chocolatey](https://img.shields.io/chocolatey/v/iotop-w)
+![Scoop](https://img.shields.io/badge/scoop-gsmitheidw%20bucket-green)
+
+
 ## Features
 
 - Shows top individual processes consuming disk i/o (adjustable)
