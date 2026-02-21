@@ -48,7 +48,7 @@ choco install iotop-w --version='1.0.3' -y
 * scoop (dev and portable centric package manager in userspace, see https://scoop.sh/ ) 
 
 
-``posh
+```posh
 scoop bucket add gsmitheidw https://github.com/gsmitheidw/scoop-gsmitheidw
 scoop install iotop-w
 ```
