@@ -8,7 +8,8 @@ iotop like command line application for Windows, written in Go.
 access slots to the storage
 - Written in golang. App is self contained with no dependencies.
 - Open Source MIT licence. 
-- Two graph visualization modes ("braille" or monochrome sparkline blocks)
+- Two graph visualization modes ("braille" or monochrome sparkline blocks)a
+
 
 ![iotop-w example](iotop-w.jpg)
 
@@ -25,19 +26,33 @@ Options:
 --help, -h       Show this help message
 --version, -v    Show version
 --info, -i       Show repo info and license
---top <number>   Show top <number> processes (max 20)
+--top <number>   Show top <number> processes (max 20, default 5).
 ```
 ## Installation:
 
 Just grab the binary from the releases section. Or:
 
 
-* winget (pending)
-* chocolatey 
+* winget package manager (already built into Windows 11 and later builds of 10)
+
+```post
+winget install iotop-w
+```
+
+* chocolatey (package manager suitable for Enterprise grade deployments, see http://www.chocolatey.org)
 
 ```posh
 choco install iotop-w --version='1.0.3' -y
 ```
+
+* scoop (dev and portable centric package manager in userspace, see https://scoop.sh/ ) 
+
+
+``posh
+scoop bucket add gsmitheidw https://github.com/gsmitheidw/scoop-gsmitheidw
+scoop install iotop-w
+```
+
 
 ## Explaination
 
@@ -56,15 +71,15 @@ I have unashamedly used some ollama LLM to help me. It would have taken me month
 
 Features that I'd like to include eventually:
 
-- Publish in chocolatey community repo and possibly others
-- Theme colours, mono, for light backgrounds, high contrast etc
-- The terminal process itself can be intrusive, might be nice to have option to exclude it
+[x] Publish in chocolatey community repo and possibly others
+[ ] Theme colours, mono, for light backgrounds, high contrast etc
+[x] The terminal process itself can be intrusive, might be nice to have option to exclude it
 
 
 ## Security
 
 - No network access
-- No registry writes
+- No registry access
 - No file writes
-- No elevation required (some processes inaccessible without elevation)
+- No elevation required (some processes may be inaccessible without elevation)
 
