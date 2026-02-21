@@ -28,6 +28,14 @@ Options:
 --info, -i       Show repo info and license
 --top <number>   Show top <number> processes (max 20, default 5).
 ```
+
+
+## Requirements
+
+- Windows 10 / 11
+- Windows Terminal, or any ANSI-capable console (works in cmd)
+- No admin required (admin shows more processes)
+
 ## Installation:
 
 Just grab the binary from the releases section. Or:
