@@ -85,11 +85,11 @@ I have unashamedly used some ollama LLM to help me. It would have taken me month
 
 ## Roadmap
 
-Features that I'd like to include eventually:
+Features that I'd like to include eventually:  
 
-[x] Publish in chocolatey community repo and possibly others
-[ ] Theme colours, mono, for light backgrounds, high contrast etc
-[x] The terminal process itself can be intrusive, might be nice to have option to exclude it
+- [x] Publish in chocolatey community repo and possibly others
+- [ ] Theme colours, mono, for light backgrounds, high contrast etc
+- [x] The terminal process itself can be intrusive, might be nice to have option to exclude it
 
 
 ## Security
